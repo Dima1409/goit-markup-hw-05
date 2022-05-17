@@ -1,5 +1,5 @@
 :root {
-    /* colors */
+    /* COLORS */
     --white-color: #fff;
     --adress-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196f3;
@@ -18,7 +18,7 @@
 
     /*  */
 
-    /* letter-spacing */
+    /* LETTER-SPACING */
     --ls-002: 0.02em;
     --ls-003: 0.03em;
     --ls-006: 0.06em;
@@ -42,7 +42,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-/* main-header */
+/* MAIN-HEADER */
 .main-header {
     border-bottom: 1px solid var(--header-border);
 }
@@ -135,7 +135,7 @@ img {
     align-items: center;
 }
 /* ************************************ */
-/* order section */
+/* SECTION ORDER */
 .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/Background-image.jpg);
     text-align: center;
@@ -180,7 +180,7 @@ img {
 }
 
 /* ********************************* */
-/* benefits section */
+/* SECTION BENEFITS */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -236,7 +236,7 @@ img {
 }
 /* *********************************** */
 
-/* our work */
+/* OUR WORK */
 .our-works {
     padding-top: 0;
 }
@@ -264,7 +264,7 @@ img {
 }
 
 /* *********************************** */
-/* our team */
+/* OUR TEAM */
 .team {
     background-color: var(--background-grey);
     max-width: 1600px;
@@ -325,7 +325,7 @@ img {
     fill: var(--white-color);
 }
 /* ********************************* */
-/* Наши клиенты */
+/* OUR CLIENTS */
 .clients-list {
     display: flex;
     align-items: center;
@@ -352,7 +352,7 @@ img {
 .clients-list:focus .clients-image {
     fill: var(--accent-color);
 }
-/* footer */
+/* FOOTER */
 .page-footer {
     background-color: var(--background-dark);
     padding: 60px 0;
@@ -428,7 +428,7 @@ img {
 /* ************************************ */
 
 
-/* potrfolio */
+/* PORTFOLIO */
 
 
 .portfolio-list,
@@ -544,7 +544,7 @@ img {
 }
 
 
-/* Modal */
+/*/// MODAL ///*/
 
 .backdrop {
     position: fixed;
