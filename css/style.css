@@ -535,7 +535,8 @@ img {
     transition: transform var(--duration) var(--timing-function),
     opacity var(--duration) var(--timing-function);
 }
-.portfolio-link:hover .portfolio-description {
+.portfolio-link:hover .portfolio-description,
+.portfolio-link:focus .portfolio-description {
     opacity: 1;
     transform: translatey(0);
 }
